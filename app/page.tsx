@@ -46,7 +46,6 @@ export default function Home() {
       }).sort((a, b) => { return b.votes - a.votes })
     })
 
-    console.log('function finished');
   }
 
   function handleSub(id: number) {
